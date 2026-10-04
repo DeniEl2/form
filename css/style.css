@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat",sans-serif;
+}
+
+.bd{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1040px;
+    width: 900px;
+    height: 750px;
+    margin: 80px 0 0 0;
+}
+
+.mp1{
+    border: 0.5px solid black;
+    max-width: 1040px;
+    width: 900px;
+    height: 526px;
+    margin: 10px 0 0 0;
+    background: rgb(24, 31, 59);
+}
+
+.mp2{
+    display: grid;
+    grid-template-columns: (2, 1fr);
+    gap: 5px;
+    border: 0.5px solid black;
+    max-width: 1040px;
+    width: 900px;
+    height: 526px;
+    margin: 10px 0 0 0;
+    background: linear-gradient(rgb(142, 110, 215));
+}
+
+.header{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    font-size: 10px;
+    margin-right: 150px;
+    color: white;
+    margin-left: 43px;
+}
+
+.icon{
+    width: 40px;
+    height: 40px;
+}
+
+.lg h1{
+    margin-left: 5px;
+}
+
+.middle{
+    margin: 0 0 100px 43px;
+    font-size: 20px;
+    color: white;
+}
+
+.middle p{
+    margin-top: 8px;
+}
+
+.bedroom{
+    margin: 40px 40px 20px 40px;
+    color: white;
+}
+
+.bedroom-back{
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 40px 40px 20px 40px;
+    height: 73%;
+    color: white;
+}
+
+.bedroom-back label{
+    font-size: 15px;
+}
+
+.input_log{
+    margin-top: 5px;
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 15px;
+    width: 400px;
+    border-radius: 10px;
+    background: rgba(70, 72, 82, 0.1);
+    border: transparent;
+    color: white;
+}
+
+.input_box{
+    color: rgb(249, 249, 249);
+    font-size: 1px;
+    margin-right: 110px;
+}
+
+.gg{
+    text-decoration: none;
+    color: white;
+}
+
+.btn{
+    width: 400px;
+    padding: 15px;
+    border-radius: 15px;
+    margin-top: 15px;
+    background-color: rgb(77, 208, 159);
+    border: transparent;
+    cursor: pointer;
+    color: white;
+}
+
+.btn:hover{
+    background-color: rgb(16, 112, 77);
+    transition: 1s;
+}
+
+.btn:active{
+    transform: translateY(10px);
+}
+
+.bot{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.bot a{
+    margin-left: 20px;
+    color: white;
+    text-decoration: none;
+}
